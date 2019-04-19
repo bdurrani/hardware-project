@@ -1,0 +1,8 @@
+{
+    "sketch": "app.ino",
+    "board": "arduino:avr:pro",
+    "configuration": "cpu=8MHzatmega328",
+    "programmer": "USBtinyISP",
+    "output": "./build",
+    "port": "COM1"
+}
