@@ -9,3 +9,7 @@ avrdude -c usbtiny -p atmega328p -C "C:\Program Files (x86)\Arduino\hardware\too
 ```
 avrdude -c usbtiny -p atmega328p -C "C:\Program Files (x86)\Arduino\hardware\tools\avr/etc/avrdude.conf" -U lfuse:w:0xff:m -U hfuse:w:0xda:m
 ```
+
+## Upload using programmer
+
+`Ctrl + Alt + B`
