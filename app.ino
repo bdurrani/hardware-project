@@ -9,7 +9,7 @@ void setup() {
   }
 
 }
-const unsigned long delayMs = 2000;
+const unsigned long delayMs = 5000;
  float counter = 1.2;
 // the loop function runs over and over again forever
 void loop() {
