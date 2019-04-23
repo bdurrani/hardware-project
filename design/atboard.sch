@@ -20,7 +20,7 @@ U 1 1 5CBE8732
 P 7750 3650
 F 0 "Y1" V 7704 3738 50  0000 L CNN
 F 1 "8 MHz" V 7795 3738 50  0000 L CNN
-F 2 "Crystal:Crystal_HC49-U_Horizontal" H 7750 3650 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 7750 3650 50  0001 C CNN
 F 3 "~" H 7750 3650 50  0001 C CNN
 	1    7750 3650
 	0    -1   -1   0   
