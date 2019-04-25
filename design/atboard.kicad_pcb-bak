@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 4)
-    (tracks 0)
+    (tracks 3)
     (zones 0)
     (modules 8)
     (nets 29)
@@ -127,8 +127,6 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (add_net +3V3)
-    (add_net +5V)
     (add_net /10)
     (add_net /11)
     (add_net /12)
@@ -154,6 +152,17 @@
     (add_net /MOSI)
     (add_net /RST)
     (add_net /SCK)
+  )
+
+  (net_class Power ""
+    (clearance 0.3)
+    (trace_width 0.4)
+    (via_dia 0.9)
+    (via_drill 0.4)
+    (uvia_dia 0.4)
+    (uvia_drill 0.1)
+    (add_net +3V3)
+    (add_net +5V)
     (add_net GND)
   )
 
@@ -623,5 +632,9 @@
   (gr_line (start 100.33 95.25) (end 100.33 41.91) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 63.5 95.25) (end 100.33 95.25) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 63.5 41.91) (end 63.5 95.25) (layer Edge.Cuts) (width 0.1))
+
+  (segment (start 88.9 72.39) (end 95.25 72.39) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 83.82 72.39) (end 81.28 74.93) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 88.9 72.39) (end 83.82 72.39) (width 0.25) (layer F.Cu) (net 1))
 
 )
