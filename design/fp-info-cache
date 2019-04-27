@@ -1,4 +1,4 @@
-15821160527658696
+15815914375935696
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -39926,20 +39926,6 @@ USB Mini-B 5-pin SMD connector, http://downloads.lumberg.com/datenblaetter/en/24
 USB USB_B USB_Mini connector
 0
 9
-6
-Connector_USB
-USB_Mini-B_Tensility_54-00023_Vertical
-http://www.tensility.com/pdffiles/54-00023.pdf
-usb mini receptacle vertical
-0
-7
-6
-Connector_USB
-USB_Mini-B_Tensility_54-00023_Vertical_CircularHoles
-http://www.tensility.com/pdffiles/54-00023.pdf
-usb mini receptacle vertical
-0
-7
 6
 Connector_Wago
 Wago_734-132_1x02_P3.50mm_Vertical
