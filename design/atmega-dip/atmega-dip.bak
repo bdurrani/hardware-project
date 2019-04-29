@@ -475,4 +475,54 @@ Wire Wire Line
 	4250 4350 4100 4350
 Wire Wire Line
 	4250 4450 4100 4450
+$Comp
+L Connector_Generic:Conn_01x14 J5
+U 1 1 5CC6618B
+P 1650 3800
+F 0 "J5" H 1568 4617 50  0000 C CNN
+F 1 "RIGHT_CONNECTOR" H 1568 4526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1650 3800 50  0001 C CNN
+F 3 "~" H 1650 3800 50  0001 C CNN
+	1    1650 3800
+	-1   0    0    -1  
+$EndComp
+Text Label 1950 3200 0    50   ~ 0
+28
+Text Label 1950 3300 0    50   ~ 0
+27
+Text Label 1950 3400 0    50   ~ 0
+26
+Text Label 1950 3500 0    50   ~ 0
+25
+Text Label 1950 3600 0    50   ~ 0
+24
+Text Label 1950 3700 0    50   ~ 0
+23
+$Comp
+L power:GND #PWR0111
+U 1 1 5CC6DC35
+P 2150 3800
+F 0 "#PWR0111" H 2150 3550 50  0001 C CNN
+F 1 "GND" H 2155 3627 50  0000 C CNN
+F 2 "" H 2150 3800 50  0001 C CNN
+F 3 "" H 2150 3800 50  0001 C CNN
+	1    2150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3800 2150 3800
+Text Label 1950 3900 0    50   ~ 0
+21
+Text Label 1950 4000 0    50   ~ 0
+20
+Text Label 1950 4100 0    50   ~ 0
+SCK
+Text Label 1950 4200 0    50   ~ 0
+MISO
+Text Label 1950 4300 0    50   ~ 0
+MOSI
+Text Label 1950 4400 0    50   ~ 0
+16
+Text Label 1950 4500 0    50   ~ 0
+15
 $EndSCHEMATC

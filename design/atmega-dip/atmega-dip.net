@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\Documents\Projects\github\hardware-project\design\atmega-dip\atmega-dip.sch)
-    (date "4/27/2019 9:52:36 AM")
+    (date "4/28/2019 7:30:12 PM")
     (tool "Eeschema (5.1.0)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
